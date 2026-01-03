@@ -1,0 +1,32 @@
+# Dependencies (Don't upload because they are huge)
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Environment Variables (CRITICAL: Contains your Clerk API Keys)
+frontend/node_modules/
+frontend/.env
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE / Editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
