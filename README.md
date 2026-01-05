@@ -33,6 +33,19 @@ A modern, full-stack Learning Management System built with the MERN stack. This 
 
 ---
 
+### 📍 Day 3: Advanced UI & Data Logic
+**Goal:** Display dynamic content and implement high-end user interactions.
+
+* **Course Catalog Grid:** * Created a responsive 4-column grid for courses.
+    * Implemented "Featured" logic using `.slice()` to limit display items.
+    * Integrated "Interactive Stars" with `localStorage` persistence.
+* **3D Testimonial System:**
+    * Built a custom 3D tilt effect using `useRef` and mouse-coordinate math.
+    * Optimized performance by manipulating the DOM directly for animations (bypassing React re-renders).
+    * Added scroll-triggered entrance animations using `IntersectionObserver`.
+* **Knowledge Check:** * Mastered the difference between `props` and `state`.
+    * Understood "Component Unmounting" vs CSS "display: none".
+
 ## 🛠️ Tech Stack Used So Far
 
 * **Frontend:** React.js, Vite
